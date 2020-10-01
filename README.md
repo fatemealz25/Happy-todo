@@ -1,2 +1,2 @@
 # todo-app
-A complete todo app with useful filters
+## Here is super cool todo list with `HTML5`, `CSS3` and `JS`.
