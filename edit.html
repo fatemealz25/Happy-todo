@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="title">Happy To-Do</h1>
+            <h3 class="subtitle">Add new to dos to prevent forgetting them</h3>
+        </div>
+    </header>
+
+    <div class="action-bar">
+        <a href="/index.html"><i class="fad fa-home-alt"></i> HOME</a>
+        <span id="updated"></span>
+    </div>
+
+    <div class="edit-container">
+        <input type="text" id="todo-text" placeholder="Enter the title">
+        <textarea id="todo-body" cols="30" rows="8" placeholder="Enter the body"></textarea>
+        <button id="remove-btn">Remove</button>
+    </div>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js" integrity="sha512-qSnlnyh7EcD3vTqRoSP4LYsy2yVuqqmnkM9tW4dWo6xvAoxuVXyM36qZK54fyCmHoY1iKi9FJAUZrlPqmGNXFw==" crossorigin="anonymous"></script>
+    <script src="./scripts/todo-functions.js"></script>
+    <script src="./scripts/todo-edit.js"></script>
+</body>
+</html>

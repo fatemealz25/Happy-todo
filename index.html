@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./images//icon.png">
+    <title>Happy To Do</title>
+</head>
+<body>
+    
+    <main>
+        <header>
+            <div class="container">
+                <h1 class="title">Happy To-Do</h1>
+                <h3 class="subtitle">Add new to dos to prevent forgetting them</h3>
+            </div>
+        </header>
+    
+        <div class="action-bar">
+            <input type="text" id="filter-todo" placeholder="Filter todos">
+    
+            <select id="sortBy">
+                <option value="byEdited">Sort by last edited</option>
+                <option value="byCreated">Sort by last created</option>
+                <option value="alphabet">Sort alphabetically</option>
+            </select>
+    
+            <label id="hide-completed">
+                <input id="hidecompleted" type="checkbox"> Hide completed items
+            </label>
+        </div>
+    
+        
+    
+        <div class="todo-container">
+            <form id="form">
+                <input  id="add-input" type="text" placeholder="Enter a new task to do" name="title">
+                <button>Add</button>
+            </form>
+        
+            <div id="notes"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <button class="footer-btn"><a href="mailto:alizade2578@gmail.com"><i class="far fa-envelope"></i></a></button>
+            <button class="footer-btn"><a href="https://github.com/fatemealz25"><i class="fab fa-github"></i></a></button>
+            <button class="footer-btn"><a href="https://t.me/fateme_alz25"><i class="fas fa-paper-plane"></i></a></button>
+            <p>Created by Fateme Alizade</p>
+        </div>
+    </footer>
+
+
+    
+
+    <script src="./scripts/uuidv4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js" integrity="sha512-qSnlnyh7EcD3vTqRoSP4LYsy2yVuqqmnkM9tW4dWo6xvAoxuVXyM36qZK54fyCmHoY1iKi9FJAUZrlPqmGNXFw==" crossorigin="anonymous"></script>
+    <script src="./scripts/todo-functions.js"></script>
+    <script src="./scripts/todo-app.js"></script>
+</body>
+</html>
