@@ -27,10 +27,13 @@ header{
     padding: 1.7rem 2.2rem;
     margin-bottom: .5rem;
     border-radius: 5px;
+    font-family: 'Acme', sans-serif;
+
 }
 
 .title{
     margin-bottom: 1rem;
+    font-size: 3.5rem;
 }
 
 /*-------------- action bar ----------------*/
@@ -71,6 +74,7 @@ header{
     justify-content: center;
     flex-direction: column;
     margin-bottom: 1rem;
+
 }
 
 #form{
@@ -79,6 +83,7 @@ header{
     margin-bottom: .5rem;
     border-bottom: 2px solid #434a5a;
     padding-bottom: .8rem;
+    
 }
 
 #add-input{
@@ -98,6 +103,7 @@ button{
     padding: .5rem;
     width: 4rem;
     outline: none;
+    cursor: pointer;
 }
 button:hover{
     background-color: #7a1d65f1;
@@ -109,6 +115,8 @@ button:hover{
     color: rgb(235, 235, 235);
     text-align: center;
     margin-bottom: 1rem;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: larger;
 }
 
 
@@ -202,7 +210,7 @@ i{
     color: #833471;
 }
  
- .footer-btn{
+.footer-btn{
     background-color: rgba(238, 238, 238, 0.726);
     padding: .3rem;
     border-radius: 4px;
